@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <title>fetch API</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            height: 100vh;
+        }
+        th{
+          font-size: 22px;
+          font-weight: 900;
+        }
+        td{
+          font-size: 18px;
+          font-weight: 600;
+        }
+    </style>
+</head> 
+
+<body class="bg-black text-center d-flex justify-content-center align-items-center">
+    <table class="table table-bordered w-75 h-25 text-center">
+        <thead>
+          <tr>
+            <th>City</th>
+            <th>Temperature (C)</th>
+            <th>Wind Speed (km/h)</th>
+            <th>humidity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td id="city1"></td>
+            <td id="temp1"></td>
+            <td id="wind1"></td>
+            <td id="humidity1"></td>
+          </tr>
+          <tr>
+            <td id="city2"></td>
+            <td id="temp2"></td>
+            <td id="wind2"></td>
+            <td id="humidity2"></td>
+          </tr>
+          <tr>
+            <td id="city3"></td>
+            <td id="temp3"></td>
+            <td id="wind3"></td>
+            <td id="humidity3"></td>
+          </tr>
+          <tr>
+            <td id="city4"></td>
+            <td id="temp4"></td>
+            <td id="wind4"></td>
+            <td id="humidity4"></td>
+          </tr>
+          <tr>
+            <td id="city5"></td>
+            <td id="temp5"></td>
+            <td id="wind5"></td>
+            <td id="humidity5"></td>
+          </tr>
+          <tr>
+            <td id="city6"></td>
+            <td id="temp6"></td>
+            <td id="wind6"></td>
+            <td id="humidity6"></td>
+          </tr>
+
+        </tbody>
+      </table>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./fetch.js"></script>
+</body>
+
+</html>
